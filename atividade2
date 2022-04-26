@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+</head>
+<style>
+    h1 {color:rgb(0, 0, 0);}
+    p {color:rgb(0, 0, 0);}
+    
+  </style>
+<body>
+    <body style="background-color:powderblue;"></body>
+    <h1>Resolva a seguinte questão</h1>
+
+    <p>Um carro foi abastecido com 50 litros de gasolina, percorrendo aproximadamente 460 Km. Qual o consumo médio do carro?</p><br>
+    <button onclick="resultado()">Clique aqui para exibir o resultado.</button>
+    <script>
+       function resultado(){
+        var x = 50
+         y = 460
+         media = y/x 
+        alert ("O resultado é "+ media);
+    }
+
+    </script>
+</body>
+</html>
